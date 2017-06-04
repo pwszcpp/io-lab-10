@@ -1,4 +1,4 @@
-package pl.edu.pwsz.student.demo;
+package pl.edu.pwsz_oswiecim.inf.unittests;
 
 /**
  * Created by mswierczek on 2017-06-04.
