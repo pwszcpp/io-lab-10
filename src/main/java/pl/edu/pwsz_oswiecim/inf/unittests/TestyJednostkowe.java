@@ -39,12 +39,14 @@ public class TestyJednostkowe {
     }
 
     public String fizzBuzz(int liczba) {
-        if (liczba % 5 == 0) {
+        if(liczba % 5 == 0 && liczba % 3 == 0) {
+            return "fizzbuzz";
+        } else if (liczba % 5 == 0) {
             return "fizz";
         } else if (liczba % 3 == 0) {
             return "buzz";
-        } else {
-            return "fizbuzz";
+        }  else {
+            return "";
         }
     }
 
